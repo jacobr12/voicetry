@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recordButton {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+#status {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+#transcription {
+    white-space: pre-wrap;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#voiceflowResponse {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
